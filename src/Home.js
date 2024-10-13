@@ -83,7 +83,7 @@ function Home() {
     
 
   const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwCqtrlb0nXvEM48gh_mUs8jpfvpA0-w&libraries=places,directions`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwCqtrlb0nXvEM48gh_mUs8jpfvpA0-w&libraries=places,directions&callback=Function.prototype`;
     script.async = true;
 
   useEffect(() => {
