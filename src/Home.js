@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserAuth } from 'AuthContext.js';
+import { UserAuth } from 'src/context/AuthContext.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Home.css';
